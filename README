@@ -1,0 +1,30 @@
+Init ( generate a tsconfig.json which specify the compiler options )
+    npx --package typescript tsc --init
+
+Compile 
+npx --package typescript tsc -w
+or
+npx --package typescript tsc
+
+type inference when using typescript 
+
+any vs unknown 
+
+if you don't know what type it will be, try using unknown instead of any
+
+
+arrays 
+
+object
+
+type aliases
+
+function type 
+
+    optional parameters 
+
+enums 
+
+generics 
+
+tuples in type script 
