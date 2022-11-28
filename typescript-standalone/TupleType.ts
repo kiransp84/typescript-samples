@@ -14,4 +14,20 @@ mouse = [
           { action : "leftclick" , onClick : () => {} } , 
           { action : "rightclick" , onClick : () => {} } 
 ]; 
-  
+
+
+////////////////////////////////////////////////////
+
+export type LeftSpeaker = {
+    volumeLevel : number ; 
+    bassLevel : number ;
+    trebleLevel : number ;
+}
+
+export type RightSpeaker =  {
+    volumeLevel : number ; 
+    bassLevel : number ;
+    trebleLevel : number ;
+}
+
+
